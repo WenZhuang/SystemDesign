@@ -1,4 +1,4 @@
-package Feeds.Twitter;
+package feeds.twitter;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
