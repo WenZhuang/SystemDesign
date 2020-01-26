@@ -1,4 +1,4 @@
-package tinyUrl;
+package main.tinyUrl;
 
 /**
  * 使用Base62生成短网址

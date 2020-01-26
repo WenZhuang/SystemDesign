@@ -1,4 +1,4 @@
-package tinyUrl;
+package main.tinyUrl;
 
 import java.util.*;
 
@@ -15,7 +15,6 @@ public class TinyUrl1 {
     private Map<String, String> shortToLongMap = new HashMap<>();
 
     private Map<String, String> longToShortMap = new HashMap<>();
-
 
     private Random random = new Random();
     /*

@@ -1,4 +1,4 @@
-package feeds.twitter;
+package main.feeds.twitter;
 
 /**
  * 使用push模式实现twitter

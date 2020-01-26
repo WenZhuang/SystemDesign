@@ -1,4 +1,4 @@
-package feeds.twitter;
+package main.feeds.twitter;
 
 import java.util.*;
 
