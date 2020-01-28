@@ -6,7 +6,7 @@ import java.util.*;
  * @author wenzhuang
  * @date 2020/1/29 1:41 AM
  */
-public class ConsistentHashing {
+public class ConsistentHashing1 {
     List<Shard> shards = new ArrayList<>();
 
     /*
