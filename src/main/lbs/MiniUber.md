@@ -22,3 +22,5 @@ public class Trip {
     public double lat, lng; // pick up location
 }
 ```
+
+https://www.lintcode.com/problem/mini-uber/
