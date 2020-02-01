@@ -17,6 +17,30 @@ public class TinyUrl1 {
     private Map<String, String> longToShortMap = new HashMap<>();
 
     private Random random = new Random();
+
+    /*
+     * @param long_url: a long url
+     * @param key: a short key
+     * @return: a short url starts with http://tiny.url/
+     */
+    public String createCustom(String long_url, String key) {
+        // write your code here
+        String shortUrl = start + key;
+        if (longToShortMap.containsKey(long_url)){
+            if (shortUrl.equals(longToShortMap.get(long_url))){
+                return shortUrl;
+            } else{
+                return "error";
+            }
+        }
+        if (shortToLongMap.containsKey(shortUrl)){
+            return "error";
+        }
+        shortToLongMap.put(shortUrl, long_url);
+        longToShortMap.put(long_url, shortUrl);
+        return shortUrl;
+    }
+
     /*
      * @param url: a long url
      * @return: a short url starts with http://tiny.url/
