@@ -1,6 +1,6 @@
 package test.storage;
 
-import main.storage.nosql.Memcache;
+import main.storage.cache.Memcache;
 
 /**
  * @author wenzhuang
