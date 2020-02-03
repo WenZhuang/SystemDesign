@@ -65,4 +65,9 @@ class Helper {
         // return distance between (lat1, lng1) and (lat2, lng2)
         return 0;
     }
+
+    public static double get_distance(Location location1, Location location2) {
+        // return distance between location1 and location2.
+        return 0;
+    }
 };

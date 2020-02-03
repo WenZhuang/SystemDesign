@@ -22,7 +22,7 @@ public class GeoHash {
      * @param precision: an integer between 1 to 12
      * @return: a base32 string
      */
-    public String encode(double latitude, double longitude, int precision) {
+    public static String encode(double latitude, double longitude, int precision) {
         // write your code here
         long binCode = 0;
         double minLat = MIN_LAT, maxLat = MAX_LAT, minLng = MIN_LNG, maxLng = MAX_LNG;
@@ -59,7 +59,7 @@ public class GeoHash {
      * @param geohash: geohash a base32 string
      * @return: latitude and longitude a location coordinate pair
      */
-    public double[] decode(String geohash) {
+    public static double[] decode(String geohash) {
         // write your code here
         long binCode = 0;
         for (int i = 0; i < geohash.length(); i++){
@@ -84,5 +84,10 @@ public class GeoHash {
             }
         }
         return new double[]{(minLat + maxLat) / 2, (minLng + maxLng) / 2};
+    }
+
+    public static String encode(Location location) {
+        // return convert location to a GeoHash string
+        return encode(location.latitude, location.longitude, 12);
     }
 }
