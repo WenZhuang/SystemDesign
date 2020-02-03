@@ -6,3 +6,5 @@
 Restaurant类已近建立好了并且有Restaurant.create() 和Helper.get_distance(location1, location2)两个函数可以使用.
 
 GeoHash类也已经提供了GeoHash.encode(location)和GeoHash.decode(string)可以帮助转换地址
+
+https://www.lintcode.com/problem/mini-yelp/description
