@@ -1,4 +1,4 @@
-package main.tinyUrl;
+package main.tiny_url;
 
 import java.util.*;
 

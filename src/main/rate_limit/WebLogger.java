@@ -1,4 +1,4 @@
-package main.rateLimit;
+package main.rate_limit;
 
 import java.util.*;
 

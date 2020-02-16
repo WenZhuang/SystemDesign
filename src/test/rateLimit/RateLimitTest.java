@@ -1,6 +1,6 @@
 package test.rateLimit;
 
-import main.rateLimit.RateLimit;
+import main.rate_limit.RateLimit;
 
 /**
  * @author wenzhuang
