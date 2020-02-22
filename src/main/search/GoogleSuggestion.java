@@ -76,6 +76,7 @@ class Pair {
 }
 
 class Document {
+    public int id;
     public int count;
     public String content;
 }
